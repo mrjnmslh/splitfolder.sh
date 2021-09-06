@@ -1,5 +1,5 @@
 #!/bin/bash
-FILENAME=/home/abdullah/Desktop/CICDDDoS2019/cat/DrDoS_DNS.csv
+FILENAME="C:\Users\john\Downloads\CorpusCine.csv"
 HDR=$(head -1 $FILENAME)
 split -b 1G $FILENAME TFTP.csv --verbose
 n=1
